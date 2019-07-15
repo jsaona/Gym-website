@@ -1,104 +1,170 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Portfolio by Jonathan Saona</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Arms Fitness</title>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+    <link rel="shortcut icon" type="image/png" href="images/flex.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="app.js"></script>
+
 </head>
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
-<link rel="stylesheet" type="text/css" href="style.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-
-
-<body>
-    <header>
-        <div class="intro">
-            <h1>Jonathan Saona</h1>
-            <h2>Front End Developer</h2>
-            <a href="#row" class="btn btn-white">view projects</a>
+    <body>
+        <!-- NAV -->
+        <div class="container">
+            <div class="navbar">
+                <a class="navbar-brand">
+                    <img src="images/flex.png" width="120" height="auto" class="header-logo" alt="logo">
+                </a>
+                <div class="nav">
+                    <a href="#">Home</a>
+                    <a href="#">About Us</a>
+                    <a href="#train">Training</a>
+                    <a href="#free">Free Trial</a>
+                    <a href="#">Schedule</a>
+                    <a href="#">Sign In</a>
+                </div>
+            </div>
         </div>
-    </header>
+
+        <header class="header">
+                <div class="header__text-box">
+                    <h1 class="heading-primary">
+                        <span class="heading-primary--main">serious about making muscle mass?</span>
+                    </h1>
     
-        <section class="section-about">
-            <h1 class="heading">About</h1>
-            <img class="align-left" src="media/john1.jpg" alt="myself">
-            <div class="about-me">
-                    <p> I'm a Front End Developer. Currently pursuing a Barchelor's degree on Computer Science. My favorite sport is soccer. I like playing video games and working out. I also enjoy taking pictures.
-                    
-            </div>  
+                    <a href="#join" class="btn">Join Now</a>
+                </div>
+        </header>
+        
+            <section id="train" class="section-trainers">
+                <div class="u-center-text">
+                    <h2 class="heading-secondary">
+                        Professional Coaches
+                    </h2>
+
+                    <div class="row">
+                        <div class="col-1-of-2">
+                            <div class="modification">
+                                <img src="images/p-trainers1.png" width="500px" height="auto">
+
+                            </div>
+                        </div>
+
+                        <div class="col-1-of-2">
+                            <p class="paragraph">We are willing to help you change your life style!</p>
+                            <a href="#" class="btn-text">Learn more &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+                
             </section>
 
-        <section class="section-skills">
-            <h1 class="heading">skills</h1>
-            <i class="devicon-html5-plain colored"></i>
-            <i class="devicon-css3-plain colored"></i>
-            <i class="devicon-bootstrap-plain colored"></i>
-            <i class="devicon-sass-original colored"></i>
-            <i class="devicon-jquery-plain colored"></i>
-            <i class="devicon-javascript-plain colored"></i>
-            <i class="devicon-git-plain colored"></i>
-            <i class="devicon-github-plain colored"></i>
-
-
-        </section>
-
-
-
-
-
-        <div class="container">
-        <section class="section-work">
-                <h1 class="heading">work</h1>
-                <div class="row" id='row'>
-                    <div class="col-lg-4 mb-4" >
-                    <div class="card">
-                        <div class="feature-box">   
-                        <a href="https://jsaona.github.io/Natours/" target="_blank"> <img class="card-img-top" src="media/assignment1.png"></a>
-                        </div>
-                    </div>
+            <section id="join" class="section-join">
+                <div class="u-center-text">
+                    <h2 class="heading-secondary">
+                        Choose Your Plan
+                    </h2>
                 </div>
-    
-                <div class="col-lg-4 mb-4">
-                    <div class="card">
-                        <div class="feature-box">
-                        <a href="https://jsaona.github.io/Todo-List/" target="_blank"> <img class="card-img-top" src="media/assignment2.png"></a>
-                        </div>
-                    </div>
-                </div>
-    
-                <div class="col-lg-4 mb-4">
-                    <div class="card">
-                        <div class="feature-box">                        
-                        <a href="https://jsaona.github.io/graphic-design/" target="_blank"> <img class="card-img-top" src="media/assignment3.png"></a>
+                <div class="row">
+                    <div class="col-1-of-3">
                         
-                        </div>
+                    <h3 class="heading-tertiary">Bronze</h3>                       
+                        <span class="heading-tertiary--sub">Yearly Package</span>
+                            <p class="plan-price">$60</p>
+                            <p class="p-text-box">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <a href="#" class="btn-text-join">Join Now</a>
+
                     </div>
+
+                    <div class="col-1-of-3">
+                        <h3 class="heading-tertiary">Silver</h3>
+                            <span class="heading-tertiary--sub">Yearly Package</span>
+                            <p class="plan-price">$120</p>
+                            <p class="p-text-box">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>     
+                            <a href="#" class="btn-text-join">Join Now</a>
+                    </div>
+
+                    <div class="col-1-of-3">
+                        <h3 class="heading-tertiary">Gold</h3>
+                            <span class="heading-tertiary--sub">Yearly Package</span>
+                            <p class="plan-price">$240</p>
+                            <p class="p-text-box">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <a href="#" class="btn-text-join">Join Now</a>                     
+                    </div>
+                </div>                  
+            </section>
+
+            <section id="free" class="section-free">
+                <div class="u-center-text">
+                    <p class="text-free">Everybody has the right to change their life style and we want to give you a chance to join this 30 day free trial!</p>
+                    <a href="#" class="btn-text-join">Join Now</a>                     
                 </div>
+                
+            </section>
+
+            <section class="section-schedule">
+                <div class="u-center-text">
+                    <h2 class="heading-secondary">
+                            Schedule
+                    </h2>
+                    <div class="row">
+
+                    <div class="col-1-of-2">
+                            <div class="modification">
+                                    <img src="images/p-trainers2.png" width="500px" height="auto">
+                                </div>
+                    </div>
+
+                    <div class="col-1-of-2">
+                        <div class="time">
+                                <p>Monday 5:00 am - 11:00 pm </p>
+                                <p>Tuesday 5:00 am - 11:00 pm</p>
+                                <p>Wednesday 5:00 am - 11:00 pm</p>
+                                <p>Thursday 5:00 am - 11:00 pm</p>
+                                <p>Friday 5:00 am - 11:00 pm</p>
+                                <p>Saturday 7:00 am - 7:00 pm</p>
+                                <p>Sunday 7:00 am - 7:00 pm</p>
+                        </div>                    
+                    </div>                            
+                </div>            
+            </section>
+
+            <section class="section-email">
+                <div class="u-center-text">
+                    <h1 class="email">Got any questions? Email us at lorem@armsfitness.com</h1>
             </div>
-        </div>
-    
+            </section>
 
-        
-</section>
+            <section class="section-footer">
+                <div class="u-center-text">
+                <img class="footer-logo" src="images/flex.png">
+                </div>
 
-    <section class="section-contact">
-        <!-- <h1 class="heading">Contact</h1> -->
-        <div class="contact-content">
-            <p class="contant-content">Let's work together!</p>
-            <h4>Email me:<a class="email" href="mailto:jonathansaona95@gmail.com">jonathansaona95@gmail.com</a></h4>
-        </div>
-        <div class="credit">
-            <!-- SOCIAL MEDIA -->
-            <div class="social">
-                <a href="https://github.com/jsaona" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://instagram.com/jonathan__319?igshid=17xqkjulisw3e" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.linkedin.com/in/jonathan-saona-710624152/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-            </div>
-            <p class="footer">&copy; Copyright 2018 Designed and Developed by Jonathan Saona</p>
-        </div>
-    </section>
-</body>
 
+                <div class="row">
+                    <div class="col-1-of-2">
+                        <div class="footer-navigation">
+                            <ul class="footer-list">
+                                <li class="footer-item"><a href="#" class="footer-link">Privacy Policy</a></li>
+                                <li class="footer-item"><a href="#" class="footer-link">Terms</a></li>
+                                <li class="footer-item"><a href="#" class="footer-link">contact us</a></li>
+                                <li class="footer-item"><a href="#" class="footer-link">About Us</a></li>
+                            </ul>
+                        </div>
+                    </div>  
+                    
+                    <div class="col-1-of-2">                            
+                            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>  
+                <p class="footer">&copy; Copyright 2019 Designed and Developed by Jonathan Saona</p>
+
+            </section>
+    </body>
 </html>
