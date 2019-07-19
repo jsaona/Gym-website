@@ -9,29 +9,50 @@
     <link rel="shortcut icon" type="image/png" href="images/flex.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <script src="app.js"></script>
 
 </head>
     <body>
-        <!-- NAV -->
-        <div class="container">
-            <div class="navbar">
-                <a class="navbar-brand">
-                    <img src="images/flex.png" width="120" height="auto" class="header-logo" alt="logo">
-                </a>
-                <div class="nav">
-                    <a href="#">Home</a>
-                    <a href="#">About Us</a>
-                    <a href="#train">Training</a>
-                    <a href="#free">Free Trial</a>
-                    <a href="#">Schedule</a>
-                    <a href="#">Sign In</a>
-                </div>
-            </div>
-        </div>
 
-        <header class="header">
-                <div class="header__text-box">
+        <!-- NAV -->
+        <nav>
+            <div class="logo">
+                <img src="images/flex.png" alt="flex">
+            </div>
+            <ul class="nav-links">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#train">Training</a>
+                </li>
+                <li>
+                    <a href="#free">Free Trial</a>
+                </li>
+                <li>
+                    <a href="#schedule">Schedule</a>
+                </li>
+                <li>
+                    <a href="#">Sign Up/MEMBER</a>
+                </li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+        
+        <header class="header">   
+            <slider>
+                <slide></slide>
+                <slide></slide>
+                <slide></slide>
+                <slide></slide>
+            </slider>
+            <div class="header__text-box">
                     <h1 class="heading-primary">
                         <span class="heading-primary--main">serious about making muscle mass?</span>
                     </h1>
@@ -49,18 +70,15 @@
                     <div class="row">
                         <div class="col-1-of-2">
                             <div class="modification">
-                                <img src="images/p-trainers1.png" width="500px" height="auto">
-
+                            <img src="images/p-trainers1.png" width="500px" height="auto">
                             </div>
                         </div>
-
                         <div class="col-1-of-2">
                             <p class="paragraph">We are willing to help you change your life style!</p>
                             <a href="#" class="btn-text">Learn more &rarr;</a>
                         </div>
                     </div>
-                </div>
-                
+                </div>      
             </section>
 
             <section id="join" class="section-join">
@@ -70,64 +88,71 @@
                     </h2>
                 </div>
                 <div class="row">
-                    <div class="col-1-of-3">
-                        
-                    <h3 class="heading-tertiary">Bronze</h3>                       
-                        <span class="heading-tertiary--sub">Yearly Package</span>
-                            <p class="plan-price">$60</p>
-                            <p class="p-text-box">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            <a href="#" class="btn-text-join">Join Now</a>
-
-                    </div>
 
                     <div class="col-1-of-3">
-                        <h3 class="heading-tertiary">Silver</h3>
-                            <span class="heading-tertiary--sub">Yearly Package</span>
-                            <p class="plan-price">$120</p>
-                            <p class="p-text-box">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>     
-                            <a href="#" class="btn-text-join">Join Now</a>
+                        <div class="box">
+                           
+                                <h3 class="heading-tertiary">Bronze</h3>                       
+                                <span class="heading-tertiary--sub">Yearly Package</span>
+                                    <p class="plan-price">$60</p>
+                                    <p class="p-text-box">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <a href="#" class="btn-text-white">Join Now</a>
+                            </div>
+                        </div>          
+                                                     
+                    
+                    <div class="col-1-of-3">
+                        <div class="box">
+                            <h3 class="heading-tertiary">Silver</h3>
+                                <span class="heading-tertiary--sub">Yearly Package</span>
+                                <p class="plan-price">$120</p>
+                                <p class="p-text-box">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>     
+                                <a href="#" class="btn-text-white">Join Now</a>
+                        </div>
                     </div>
+                                   
 
                     <div class="col-1-of-3">
-                        <h3 class="heading-tertiary">Gold</h3>
-                            <span class="heading-tertiary--sub">Yearly Package</span>
-                            <p class="plan-price">$240</p>
-                            <p class="p-text-box">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            <a href="#" class="btn-text-join">Join Now</a>                     
-                    </div>
+                        <div class="box">                
+                            <h3 class="heading-tertiary">Gold</h3>
+                                <span class="heading-tertiary--sub">Yearly Package</span>
+                                <p class="plan-price">$240</p>
+                                <p class="p-text-box">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <a href="#" class="btn-text-white">Join Now</a>                     
+                        </div>      
+                    </div>            
                 </div>                  
             </section>
 
             <section id="free" class="section-free">
-                <div class="u-center-text">
-                    <p class="text-free">Everybody has the right to change their life style and we want to give you a chance to join this 30 day free trial!</p>
-                    <a href="#" class="btn-text-join">Join Now</a>                     
-                </div>
-                
+                <div class="opacity">
+                    <div class="u-center-text">
+                        <p class="text-free">Everybody has the right to change their life style and we want to give you a chance to join this 30 day free trial!</p>
+                        <a href="#" class="btn-text-white">Join Now</a>  
+                    </div>    
+                </div>                   
             </section>
 
-            <section class="section-schedule">
+            <section id="schedule" class="section-schedule">
                 <div class="u-center-text">
                     <h2 class="heading-secondary">
-                            Schedule
+                    Schedule
                     </h2>
                     <div class="row">
-
                     <div class="col-1-of-2">
-                            <div class="modification">
-                                    <img src="images/p-trainers2.png" width="500px" height="auto">
-                                </div>
+                        <div class="modification">
+                            <img src="images/p-trainers2.png" width="500px" height="auto">
+                        </div>
                     </div>
-
                     <div class="col-1-of-2">
                         <div class="time">
-                                <p>Monday 5:00 am - 11:00 pm </p>
-                                <p>Tuesday 5:00 am - 11:00 pm</p>
-                                <p>Wednesday 5:00 am - 11:00 pm</p>
-                                <p>Thursday 5:00 am - 11:00 pm</p>
-                                <p>Friday 5:00 am - 11:00 pm</p>
-                                <p>Saturday 7:00 am - 7:00 pm</p>
-                                <p>Sunday 7:00 am - 7:00 pm</p>
+                            <p>Monday 5:00 am - 11:00 pm </p>
+                            <p>Tuesday 5:00 am - 11:00 pm</p>
+                            <p>Wednesday 5:00 am - 11:00 pm</p>
+                            <p>Thursday 5:00 am - 11:00 pm</p>
+                            <p>Friday 5:00 am - 11:00 pm</p>
+                            <p>Saturday 7:00 am - 7:00 pm</p>
+                            <p>Sunday 7:00 am - 7:00 pm</p>
                         </div>                    
                     </div>                            
                 </div>            
@@ -143,8 +168,6 @@
                 <div class="u-center-text">
                 <img class="footer-logo" src="images/flex.png">
                 </div>
-
-
                 <div class="row">
                     <div class="col-1-of-2">
                         <div class="footer-navigation">
@@ -155,16 +178,15 @@
                                 <li class="footer-item"><a href="#" class="footer-link">About Us</a></li>
                             </ul>
                         </div>
-                    </div>  
-                    
-                    <div class="col-1-of-2">                            
-                            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-                            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-                            <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </div>     
+                    <div class="col-1-of-2">      
+                        <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>     
                     </div>
                 </div>  
-                <p class="footer">&copy; Copyright 2019 Designed and Developed by Jonathan Saona</p>
-
-            </section>
+            <p class="footer">&copy; Copyright 2019 Designed and Developed by Jonathan Saona</p>
+        </section>
     </body>
+    <script src="app.js"></script>
 </html>
