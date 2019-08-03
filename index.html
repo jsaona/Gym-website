@@ -4,19 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <meta name="theme-color" content="#4285f4"> -->
     <title>Arms Fitness</title>
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
-    <link rel="shortcut icon" type="image/png" href="images/flex.png">
+    <link rel="shortcut icon" type="image/png" href="images/logo-1x.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-
+    
 </head>
     <body>
-
         <!-- NAV -->
         <nav>
             <div class="logo">
-                <img src="images/flex.png" alt="flex">
+                <img src="images/logo.png" alt="logo">
             </div>
             <ul class="nav-links">
                 <li>
@@ -43,8 +42,7 @@
                 <div class="line2"></div>
                 <div class="line3"></div>
             </div>
-        </nav>
-        
+        </nav>  
         <header class="header">   
             <slider>
                 <slide></slide>
@@ -60,25 +58,26 @@
                     <a href="#join" class="btn">Join Now</a>
                 </div>
         </header>
-        
             <section id="train" class="section-trainers">
                 <div class="u-center-text">
                     <h2 class="heading-secondary">
                         Professional Coaches
                     </h2>
-
-                    <div class="row">
-                        <div class="col-1-of-2">
-                            <div class="modification">
-                            <img src="images/p-trainers1.png" width="500px" height="auto">
-                            </div>
+                </div>
+                    <div class="section group">
+                        <div class="col span_1_of_2">
+                            <img srcset="images/trainer-1.webp 300w, images/trainer-large.webp 1000w"
+                                 sizes="(max-width: 768px) 50vw, (max-width:480px) 5vw, 500px" 
+                                 alt="personal trainer" class="photo-1"
+                                 src="images/trainer-large.webp">                                               
                         </div>
-                        <div class="col-1-of-2">
+                        <div class="col span_1_of_2">
+                            <div class="u-center-text">
+                            
                             <p class="paragraph">We are willing to help you change your life style!</p>
                             <a href="#" class="btn-text">Learn more &rarr;</a>
                         </div>
-                    </div>
-                </div>      
+                        </div>
             </section>
 
             <section id="join" class="section-join">
@@ -87,41 +86,35 @@
                         Choose Your Plan
                     </h2>
                 </div>
-                <div class="row">
-
-                    <div class="col-1-of-3">
-                        <div class="box">
-                           
+                <div class="section group">
+                        <div class="col span_1_of_3">
+                                <div class="box">                           
+                                        <h3 class="heading-tertiary">Bronze</h3>                       
+                                        <span class="heading-tertiary--sub">Yearly Package</span>
+                                            <p class="plan-price">$60</p>
+                                            <p class="p-text-box">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                            <a href="#" class="btn-text-white">Join Now</a>
+                        </div>
+                        </div>
+                        <div class="col span_1_of_3">
+                            <div class="box">                           
                                 <h3 class="heading-tertiary">Bronze</h3>                       
                                 <span class="heading-tertiary--sub">Yearly Package</span>
-                                    <p class="plan-price">$60</p>
-                                    <p class="p-text-box">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                    <a href="#" class="btn-text-white">Join Now</a>
+                                <p class="plan-price">$60</p>
+                                <p class="p-text-box">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <a href="#" class="btn-text-white">Join Now</a>
                             </div>
-                        </div>          
-                                                     
-                    
-                    <div class="col-1-of-3">
-                        <div class="box">
-                            <h3 class="heading-tertiary">Silver</h3>
+                        </div>
+                        <div class="col span_1_of_3">
+                            <div class="box">                           
+                                <h3 class="heading-tertiary">Bronze</h3>                       
                                 <span class="heading-tertiary--sub">Yearly Package</span>
-                                <p class="plan-price">$120</p>
-                                <p class="p-text-box">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>     
+                                <p class="plan-price">$60</p>
+                                <p class="p-text-box">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                 <a href="#" class="btn-text-white">Join Now</a>
                         </div>
                     </div>
-                                   
-
-                    <div class="col-1-of-3">
-                        <div class="box">                
-                            <h3 class="heading-tertiary">Gold</h3>
-                                <span class="heading-tertiary--sub">Yearly Package</span>
-                                <p class="plan-price">$240</p>
-                                <p class="p-text-box">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <a href="#" class="btn-text-white">Join Now</a>                     
-                        </div>      
-                    </div>            
-                </div>                  
+                </div>
             </section>
 
             <section id="free" class="section-free">
@@ -130,7 +123,7 @@
                         <p class="text-free">Everybody has the right to change their life style and we want to give you a chance to join this 30 day free trial!</p>
                         <a href="#" class="btn-text-white">Join Now</a>  
                     </div>    
-                </div>                   
+                </div>                    
             </section>
 
             <section id="schedule" class="section-schedule">
@@ -138,38 +131,48 @@
                     <h2 class="heading-secondary">
                     Schedule
                     </h2>
-                    <div class="row">
-                    <div class="col-1-of-2">
-                        <div class="modification">
-                            <img src="images/p-trainers2.png" width="500px" height="auto">
+                </div>
+
+                <div class="section group">
+                        <div class="col span_1_of_2">
+                                <img srcset="images/trainer-2.webp 300w, images/trainer-large-2.webp 1000w"
+                                 sizes="(max-width: 768px) 50vw, (max-width:480px) 5vw, 500px" 
+                                 alt="personal trainer" class="photo-2"
+                                 src="images/trainer-large-2.webp">
+                        </div>
+                        <div class="col span_1_of_2">
+                                <div class="u-center-text">
+                                <div class="time">
+                                        <p>Monday 5:00 am - 11:00 pm </p>
+                                        <p>Tuesday 5:00 am - 11:00 pm</p>
+                                        <p>Wednesday 5:00 am - 11:00 pm</p>
+                                        <p>Thursday 5:00 am - 11:00 pm</p>
+                                        <p>Friday 5:00 am - 11:00 pm</p>
+                                        <p>Saturday 7:00 am - 7:00 pm</p>
+                                        <p>Sunday 7:00 am - 7:00 pm</p>
+                                    </div>
+                                    </div>
                         </div>
                     </div>
-                    <div class="col-1-of-2">
-                        <div class="time">
-                            <p>Monday 5:00 am - 11:00 pm </p>
-                            <p>Tuesday 5:00 am - 11:00 pm</p>
-                            <p>Wednesday 5:00 am - 11:00 pm</p>
-                            <p>Thursday 5:00 am - 11:00 pm</p>
-                            <p>Friday 5:00 am - 11:00 pm</p>
-                            <p>Saturday 7:00 am - 7:00 pm</p>
-                            <p>Sunday 7:00 am - 7:00 pm</p>
-                        </div>                    
-                    </div>                            
-                </div>            
             </section>
 
             <section class="section-email">
                 <div class="u-center-text">
                     <h1 class="email">Got any questions? Email us at lorem@armsfitness.com</h1>
-            </div>
+                </div>
             </section>
 
             <section class="section-footer">
-                <div class="u-center-text">
-                <img class="footer-logo" src="images/flex.png">
+                <div class="u-center-text">       
+                   <picture class="footer-logo">
+                    <source srcset="images/logo-small-1x.png 1x, images/logo-small-2x.png 2x"
+                            media="(max-width: 37.5em)">
+                    <img srcset="images/logo-1x-1 1x, images/logo-2x.png 2x" alt="Full logo" src="images/logo-2x.png">
+                    </picture>
                 </div>
-                <div class="row">
-                    <div class="col-1-of-2">
+
+                <div class="section group">
+                    <div class="col span_1_of_2">
                         <div class="footer-navigation">
                             <ul class="footer-list">
                                 <li class="footer-item"><a href="#" class="footer-link">Privacy Policy</a></li>
@@ -178,13 +181,14 @@
                                 <li class="footer-item"><a href="#" class="footer-link">About Us</a></li>
                             </ul>
                         </div>
-                    </div>     
-                    <div class="col-1-of-2">      
-                        <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
-                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>     
                     </div>
-                </div>  
+                    <div class="col span_1_of_2">
+                        <a href="#" aria-label="Facebook Icon"></a> target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Instagram Icon"></a> target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter Icon"></a> target="_blank"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+
             <p class="footer">&copy; Copyright 2019 Designed and Developed by Jonathan Saona</p>
         </section>
     </body>
