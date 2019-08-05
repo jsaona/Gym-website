@@ -54,7 +54,6 @@
 	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
 }
 
-
 .box {
   background-image: linear-gradient(to right,  rgba(255, 221, 0, 0.8), rgba(251, 175, 52, 0.8));
   border-radius: 20px;
@@ -92,21 +91,21 @@ slider {
  slide:nth-child(1){
   left: 0%;
   animation-delay: -1s;
-  background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/image1.webp);
+  background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/image1.jpg);
   background-size: cover;
   background-position: center;
  }
  
  slide:nth-child(2){
   animation-delay: 2s;
-  background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/image2.webp);
+  background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/image2.jpg);
   background-size: cover;
   background-position: center;
  }
  
  slide:nth-child(3){
   animation-delay: 5s;
-  background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/image3.webp);
+  background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/image3.jpg);
   background-size: cover;
   background-position: center;
  }
@@ -114,7 +113,7 @@ slider {
  slide:nth-child(4){
   left: 0%;
   animation-delay: 8s;
-  background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/image4.webp);
+  background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/image4.jpg);
   background-size: cover;
   background-position: center;
  }
@@ -149,6 +148,8 @@ nav {
   min-height: 8vh;
   font-family: 'Lato', sans-serif;
   background-color: #000000;
+  text-transform: uppercase;
+  font-size: 1.0rem;
 }
 
 .logo img {
@@ -243,13 +244,12 @@ nav {
 
 .section-footer {
   background-color: #000;
-  padding: 5rem 0 0;
+  padding: 5rem 10rem 0;
 }
 
 
 /* Row and Columns */
 .row {
-  display: flex; 
   margin-top: 6rem;
   max-width: 114rem;
   margin: 0 auto;
@@ -406,6 +406,7 @@ nav {
 /* Footer */
 .footer-logo {
   width: 15rem;
+  margin-bottom: 5rem;
   height: auto;
   filter: invert(1);
 }
@@ -413,11 +414,11 @@ nav {
 .footer-navigation {
   display: inline-block;
   font-family: 'Lato', sans-serif;
-  margin-left: 3rem;
 }
 
 .footer-list {
   list-style: none;
+  text-transform: uppercase;
 }
 
 .footer-link {
@@ -433,13 +434,13 @@ nav {
 }
 
 .footer-item {
-  font-size: 1.3rem;
+  font-size: 1.0rem;
   margin-right: 1.5rem;
   display: inline-block;
 }
 
 .footer {
-  padding: 1rem;
+  padding: 1rem 0;
   text-align: center;
   font-size: 1.0rem;
   color: #fff;
@@ -458,6 +459,10 @@ nav {
   color: transparent;
   -webkit-background-clip: text;
   transition: all .2s;
+}
+
+.icons {
+  float: right;
 }
 
 
@@ -518,6 +523,13 @@ nav {
   .section-schedule {
     padding: 8rem 0 5rem;
 }
+  .section-footer {
+    padding: 5rem 4rem 0;
+}
+
+  .footer-logo {
+    margin-bottom: 5rem;
+  }
 
   .nav-links a {
     color: #717171;
@@ -537,6 +549,14 @@ nav {
   transform: translateX(0%);
   z-index: 1;
 
+}
+
+.content-left {
+  /* float: left; */
+}
+
+.content-right {
+  /* float: right; */
 }
 
 @keyframes navLinkFade {
